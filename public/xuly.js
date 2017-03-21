@@ -18,7 +18,7 @@ var Website = React.createClass({
     layThongTin: function () {
         alert("OK");
     },
-
+    //Lay state- return cho 1 state.
     getInitialState(){
         return {tongso: this.props.tong};
     },
